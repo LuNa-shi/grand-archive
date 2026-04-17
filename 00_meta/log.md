@@ -34,3 +34,27 @@
 ## 2026-04-17 | image handling rule added
 - Updated the source-ingestion rules to download key images into a local asset folder when possible and embed local files instead of hotlinking.
 - This makes produced notes more durable and readable inside Obsidian.
+
+## 2026-04-17 | block-generation guide refined
+- Strengthened the procedure so produced notes must try to identify the true main figure, architecture overview, pipeline figure, or strongest explanatory image.
+- Replaced the hotlinked image in the π0.7 produced note with a local embedded asset.
+- Recorded that the produced-note / blog-generation protocol is an evolving guide to be negotiated and improved with the user over time.
+
+## 2026-04-17 | technical writing standard tightened
+- Updated the produced-note rules to reduce non-technical discussion and prefer concrete technical details.
+- Revised the π0.7 note to tell the story through the system design, conditioning structure, figure meaning, and concrete demonstrated behaviors rather than broad framing.
+
+## 2026-04-17 | project-local skills scaffold added
+- Created project_skills/ as a local operating-manual layer for this archive.
+- Added reusable local skill docs for search, ingest, synthesize, source preprocessing, and blog-block quality.
+- The new design treats archive workflows like composable project functions: normalize source first, then produce, then synthesize.
+
+## 2026-04-17 | seed-source multi-platform demo distilled
+- Wrote a larger-scale synthesis note showing that the current seed sources already demonstrate working ingestion across blogs, GitHub Pages, course pages, X posts, arXiv papers, GitHub repos/profiles, company sites, and business portals.
+- Reduced the demonstrated successes and failures into reusable pipelines inside project_skills/source-preprocessing.md.
+- This is the first real proof that the archive's source-handling layer can be treated like composable software logic rather than ad hoc note taking.
+
+## 2026-04-17 | produced-note coverage expanded across seed sources
+- Added produced notes for Karpathy blog, Claude Code guide preface, CSE 234 course page, IBM Institute for Business Value, Goedel-Code-Prover paper, Goedel-Code-Prover repository, and Physical Intelligence source overview.
+- Strengthened the rule that important sources should first become concise interpreted notes before multi-source synthesis.
+- Simplified project_skills/source-preprocessing.md back into a single pass-oriented control file with routing logic, for-loop logic, and source-type conditions in one place.

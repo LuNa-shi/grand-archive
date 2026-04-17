@@ -15,4 +15,4 @@ Recommended subfolders for this archive:
 - other/
 
 Rule:
-Capture first, then interpret in 20_produced.
+Capture first, then interpret in 20_interpreted.

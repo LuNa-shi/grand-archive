@@ -19,7 +19,7 @@ It has three layers:
 - 00_meta/ = system notes and navigation
 - 01_profile/ = personal taste, habits, curiosity map
 - 10_raw/ = immutable source captures
-- 20_produced/ = one note per source, interpreted in a standard template
+- 20_interpreted/ = one note per source, interpreted in a standard template
 - 30_synthesis/ = multi-source reflections, topic maps, essays, personal research papers
 
 ## Naming conventions

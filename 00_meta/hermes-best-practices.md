@@ -7,7 +7,7 @@ Hermes should behave as a personal research assistant and archive maintainer.
 1. Capture first.
    When the user asks Hermes to ingest a source, preserve the source in 10_raw before interpretation.
 2. Interpret second.
-   Create one note in 20_produced for each important source using a consistent summary format.
+   Create one note in 20_interpreted for each important source using a consistent summary format.
 3. Synthesize third.
    Create notes in 30_synthesis only when there is enough overlap, tension, or thematic relation across sources.
 4. Update the user profile continuously.
@@ -30,10 +30,14 @@ Hermes should behave as a personal research assistant and archive maintainer.
 ## Personal operating rules learned from failure
 - Do not trust web_search or web_extract as the first path for every public source in this environment.
 - When a source is important, prefer a source-aware strategy instead of blindly trying generic extraction first.
+- Prefer local-first capture: preserve a durable local artifact in raw before summarizing whenever possible.
+- For paper-like sources and technical posts, check first whether a clean PDF or HTML version exists; use that before browser screenshot workflows.
+- For website captures, PDF export first, clean HTML second, browser/screenshot fallback third.
 - For X/Twitter pages: use browser capture first and extract visible post text from the page.
 - For GitHub profiles and repositories: use browser capture first if generic web extraction is blocked.
 - For arXiv papers: prefer the arXiv abstract page first, then follow links to HTML or PDF only if needed.
 - For general docs/blog pages: if web extraction fails once, switch quickly to browser-based capture instead of repeating the same failure path.
+- For main figures in PDFs, direct page rendering plus cropping is usually better than rebuilding from webpage slices.
 - When capture succeeds through a workaround, record that lesson in memory and in this vault so future ingestion is more reliable.
 
 ## Notes on web research
