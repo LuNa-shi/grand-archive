@@ -1,13 +1,13 @@
-# grand-archive
+# grand-archive ✨
 
 A personal Obsidian-based knowledge archive for collecting, interpreting, and synthesizing high-signal sources.
 
-This repo is designed as a living research assistant workspace.
+This repo is a living research workspace.
 It preserves raw source material, turns important sources into concise interpreted notes, and later combines related material into higher-level synthesis.
 
 ## Core idea
 
-The archive currently follows a 3-layer model:
+The archive follows a 3-layer model:
 
 - raw
   immutable source captures from blogs, papers, social posts, GitHub, company research pages, and other sources
@@ -40,7 +40,7 @@ The important thing is not the script alone.
 Scripts are cheap and can be generated quickly.
 The more durable value is in how reusable capabilities are decomposed, routed, and composed together.
 
-In this repo, markdown files are starting to play the role of compact software modules:
+Markdown files are starting to play the role of compact software modules:
 - some files describe search behavior
 - some files describe source-type routing
 - some files describe ingest behavior
