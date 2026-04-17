@@ -200,6 +200,8 @@
   },
   "active": "5570bb85910fbb9c",
   "lastOpenFiles": [
+    "README.md",
+    "00_meta/github-sync-notes.md",
     "10_raw/courses/2026-04-17-course-cse234-data-systems-for-ml.md",
     "20_produced/luna-shi-github-profile.md",
     "20_produced/physical-intelligence-pi07.md",
@@ -224,8 +226,6 @@
     "index.md",
     "inbox.md",
     "log.md",
-    "AGENTS.md",
-    "wiki/concepts/learning.md",
     "raw/web/ai-systems/2026-04-07-neural-computer.html",
     "raw/web/ai-systems",
     "raw/papers/code-verification/2026-03-30-goedel-code-prover.pdf",
