@@ -25,6 +25,7 @@ Only after that should the system generate produced notes or syntheses.
 ## Local skills in this folder
 - search.md — recurring search / monitoring workflow
 - ingest.md — convert a source into normalized raw + produced note
+- deepen.md — second-pass upgrade for important notes with more figures, sharper framing, and stronger technical interpretation
 - synthesize.md — answer questions or generate higher-level ideas from normalized local sources
 - source-preprocessing.md — platform-specific rules for turning any source into a normalized local artifact
 - blog-block-quality.md — what makes a concise but technically useful produced note
