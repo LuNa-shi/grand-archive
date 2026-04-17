@@ -1,5 +1,7 @@
 # grand-archive ✨
 
+![Grand Archive overview](assets/readme/overview.png)
+
 A personal Obsidian-based knowledge archive for collecting, interpreting, and synthesizing high-signal sources.
 
 This repo is a living research workspace.
